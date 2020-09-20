@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-width: thin black;
+  border-style: solid;
+  border-radius: 12px;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.name {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
